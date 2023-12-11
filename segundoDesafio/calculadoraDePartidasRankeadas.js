@@ -20,7 +20,7 @@ function calcularNivel(saldo) {
     } else if (saldo >= 101) {
         nivel = "Imortal";
     }
- return `O Herói tem um saldo de ${saldo} e está no nível de ${nivel}.`;
+ return `O Herói tem um saldo de: ${saldo} e está no nível de ${nivel}.`;
 }
 
 

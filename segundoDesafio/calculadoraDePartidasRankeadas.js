@@ -1,9 +1,9 @@
 function calcularSaldo(vitorias, derrotas) {
-    return vitorias - derrotas;
+    return  saldo = vitorias - derrotas;
 }
 
-function calcularNivel(saldo) {
-    saldo = calcularSaldo(10,5)
+function calcularNivel(){
+    saldo = calcularSaldo(106,5)
     let nivel = "";
     if (saldo < 10) {
         nivel = "Ferro";
@@ -20,8 +20,8 @@ function calcularNivel(saldo) {
     } else if (saldo >= 101) {
         nivel = "Imortal";
     }
- return `O Herói tem um saldo de: ${saldo} e está no nível de ${nivel}.`;
+    return  "O saldo de vitórias do heroi é " + saldo + " seu nivel é " + nivel
 }
 
 
-console.log(calcularNivel(10,5))
+console.log(calcularNivel())
